@@ -1,5 +1,5 @@
 <div class="sp">
-  <button class="sparkle-button">
+  <button class="sparkle-button" (click)="clickHandler()">
     <span class="spark"></span>
 
     <span class="backdrop"></span>
@@ -31,7 +31,7 @@
         stroke-linejoin="round"
       ></path>
     </svg>
-    <span class="text">Generate Site</span>
+    <span class="text">{{ title }}</span>
   </button>
   <div class="bodydrop"></div>
   <span aria-hidden="true" class="particle-pen">

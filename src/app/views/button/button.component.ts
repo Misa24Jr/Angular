@@ -22,4 +22,10 @@ import { CreativeButtonComponent } from '../../components/buttons/creative-butto
   templateUrl: './button.component.html',
   styleUrl: './button.component.css',
 })
-export class ButtonComponent {}
+export class ButtonComponent {
+  buttonContent: string = 'Button';
+
+  clickHandler = (): void => {
+    console.log('Button clicked: ');
+  };
+}

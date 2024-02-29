@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 .flexContent {
-  width: 100%;
+  width: 70%;
   height: 768px;
+  align-items: center;
   display: grid;
   margin-left: 200px;
   grid-template-rows: repeat(auto-fit, 1fr);

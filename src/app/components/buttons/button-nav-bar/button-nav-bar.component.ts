@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button-nav-bar',
@@ -8,16 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './button-nav-bar.component.css',
 })
 export class ButtonNavBarComponent {
-  home() {
-    console.log('Home');
-  }
-  search() {
-    console.log('Search');
-  }
-  profile() {
-    console.log('Profile');
-  }
-  store() {
-    console.log('Store');
-  }
+  @Input() homeClickHandler: () => void = () => {};
+  @Input() searchClickHandler: () => void = () => {};
+  @Input() profileClickHandler: () => void = () => {};
+  @Input() storeClickHandler: () => void = () => {};
 }

@@ -1,9 +1,39 @@
 <div class="flexContent">
-  <app-not-allowed class="element"></app-not-allowed>
-  <app-threedimensional-button class="element"></app-threedimensional-button>
-  <app-like-button class="element"></app-like-button>
-  <app-button-nav-bar class="element"></app-button-nav-bar>
-  <app-creative-button class="element"></app-creative-button>
-  <app-add-button class="element"></app-add-button>
-  <app-delete-button class="element"></app-delete-button>
+  <app-not-allowed
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-not-allowed>
+  <app-threedimensional-button
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-threedimensional-button>
+  <app-like-button
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-like-button>
+  <app-button-nav-bar
+    class="element"
+    [homeClickHandler]="clickHandler"
+    [searchClickHandler]="clickHandler"
+    [storeClickHandler]="clickHandler"
+    [profileClickHandler]="clickHandler"
+  ></app-button-nav-bar>
+  <app-creative-button
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-creative-button>
+  <app-add-button
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-add-button>
+  <app-delete-button
+    class="element"
+    [title]="buttonContent"
+    [clickHandler]="clickHandler"
+  ></app-delete-button>
 </div>
