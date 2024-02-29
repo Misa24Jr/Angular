@@ -1,0 +1,9 @@
+.layout {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+  }
+  
+  .grow1 { flex-grow: 2; }
