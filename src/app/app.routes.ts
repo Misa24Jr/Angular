@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { ButtonComponent } from './button/button.component';
-import { InputComponent } from './input/input.component';
-import { CardComponent } from './card/card.component';
+import { ButtonComponent } from './views/button/button.component';
+import { InputComponent } from './views/input/input.component';
+import { CardComponent } from './views/card/card.component';
 // import { HomeComponent } from './home/home.component';
 
 
