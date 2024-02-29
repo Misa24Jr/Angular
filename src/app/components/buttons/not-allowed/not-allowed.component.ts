@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-not-allowed',
@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './not-allowed.component.css',
 })
 export class NotAllowedComponent {
-  clickHandler() {
-    console.log('Not allowed');
-  }
+  @Input() title: string = 'Not Allowed';
 }

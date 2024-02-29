@@ -12,5 +12,6 @@ import { CardPresentComponent } from '../../components/cards/card-present/card-p
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-
+  title: string = 'MasterSusy';
+  name: string = 'Luis Romero';
 }

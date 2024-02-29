@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { ButtonComponent } from './views/button/button.component';
-import { InputComponent } from './views/input/input.component';
+import { InputComponent } from './views/loaders/loaders.component';
 import { CardComponent } from './views/card/card.component';
 // import { HomeComponent } from './home/home.component';
 
