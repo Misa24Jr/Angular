@@ -23,5 +23,13 @@ import { CreativeButtonComponent } from '../../components/buttons/creative-butto
   styleUrl: './button.component.css',
 })
 export class ButtonComponent {
+<<<<<<< HEAD
   title: string = 'Raspado';
+=======
+  buttonContent: string = 'Button';
+
+  clickHandler = (): void => {
+    console.log('Button clicked: ');
+  };
+>>>>>>> 634129fbef0ff392bb205fdf465105895c3d5e08
 }
