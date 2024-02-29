@@ -9,8 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class NotAllowedComponent {
   @Input() title: string = 'Not Allowed';
-<<<<<<< HEAD
-=======
   @Input() clickHandler: () => void = () => {};
->>>>>>> 634129fbef0ff392bb205fdf465105895c3d5e08
 }

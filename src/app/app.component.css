@@ -15,7 +15,7 @@
     left: 0%;
     right: 0;
     margin-bottom: 5%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   
   /* for all social containers*/
@@ -28,6 +28,7 @@
     justify-content: center;
     overflow: hidden;
     transition-duration: .3s;
+    border-radius: 15px;
   }
   /* instagram*/
   .containerOne:hover {
