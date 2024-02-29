@@ -1,6 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+<<<<<<< HEAD
 body{
   background: lightgray;
+=======
+.flexContent {
+  width: 70%;
+  height: 768px;
+  align-items: center;
+  display: grid;
+  margin-left: 200px;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+>>>>>>> 634129fbef0ff392bb205fdf465105895c3d5e08
 }
 .flexContent {
     margin-top: 5%;
